@@ -24,7 +24,7 @@ Motion retargeting is a fundamental problem in computer graphics and computer vi
 -
 <a href="https://www.youtube.com/watch?v=oTAcxTtPXUg&t=95s&ab_channel=HMM_LAB">Video</a>
 -
-<a href="https://ieeexplore.ieee.org/document/10129844">Paper</a>    # you can put a pdf file or paper websites
+<a href="https://ieeexplore.ieee.org/document/10129844">Paper</a> 
 -
 <a href="https://github.com/hlcdyy/pan-motion-retargeting">Code & Demo</a>
 -
@@ -32,7 +32,7 @@ Motion retargeting is a fundamental problem in computer graphics and computer vi
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=oTAcxTtPXUg&t=95s&ab_channel=HMM_LAB">
-<img width="60%" src="Media/TVCG_2023_PAN/h2d.png">
+<img width="60%" src="Media/TVCG_2023_PAN/h2d-01.png">
 </a>
 </p>
 
