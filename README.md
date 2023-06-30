@@ -1,4 +1,4 @@
-Hmm Works: The Whole Works in Human Motion Modeling Laboratory
+Hmm Publications: The Whole Works in Human Motion Modeling Laboratory
 ============
 This project is created to display the works of the Human Motion Modeling Lab at Institute of Computing Technology, Chinese Academy of Sciences. The Lab is hosted by Prof. <a href="https://people.ucas.ac.cn/~xiashihong?language=en">Shihong Xia</a>. This project includes published works in the lab, including 3D human motion modeling, face modeling, and their applications. 
 
