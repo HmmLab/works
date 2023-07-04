@@ -44,11 +44,10 @@ Motion retargeting is a fundamental problem in computer graphics and computer vi
 <a Congyi Wang</a>, 
 <a Jinxiang Chai</a>,
 <a href="https://www.cs.cmu.edu/~jkh/">Jessica Hodgins</a>,
-<a href="https://people.ucas.ac.cn/~xiashihong?language=en">Shihong Xia</a>, 
-IEEE Transactions on Visualization and Computer Graphics, DOI: 10.1109/TVCG.2023.3277918
+ACM Transactions on Graphics, Volume 34, Issue 4, 27 July 2015, Article No.: 119, pp 1–10, https://doi.org/10.1145/2766999
 <sub>
 ------------
-<img src ="Media/Siggraph_2015_style/Teaser.png" width="100%">
+<img src ="Media/Siggraph_2015_style/Teaser.jpg" width="100%">
 
 <p align="center">
 This paper presents a novel solution for realtime generation of stylistic human motion that automatically transforms unlabeled, heterogeneous motion data into new styles. The key idea of our approach is an online learning algorithm that automatically constructs a series of local mixtures of autoregressive models (MAR) to capture the complex relationships between styles of motion. We construct local MAR models on the fly by searching for the closest examples of each input pose in the database. Once the model parameters are estimated from the training data, the model adapts the current pose with simple linear transformations. In addition, we introduce an efficient local regression model to predict the timings of synthesized poses in the output style. We demonstrate the power of our approach by transferring stylistic human motion for a wide variety of actions, including walking, running, punching, kicking, jumping and transitions between those behaviors. Our method achieves superior performance in a comparison against alternative methods. We have also performed experiments to evaluate the generalization ability of our data-driven model as well as the key components of our system.
@@ -60,7 +59,7 @@ This paper presents a novel solution for realtime generation of stylistic human 
 -
 <a href="https://youtu.be/-c9nqPYtOlg">Video</a> 
 -
-<a href="Media/Siggraph_2015_style/paper.pdf">Paper</a>
+<a src="Media/Siggraph_2015_style/paper.pdf">Paper</a>
 -
 <a href="https://drive.google.com/file/d/1TiE5moEtX_PR0ELkLGo-0y6k13YwlIUa/view?usp=sharing">Dataset</a>
 -
