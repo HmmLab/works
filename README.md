@@ -8,8 +8,8 @@ This project is created to display the works of the Human Motion Modeling Lab at
 <sub>
 <a href="https://hlcdyy.github.io/">Lei Hu</a>, 
 <a href="http://zihaozhang.tech/">Zihao Zhang</a>, 
-<a Chongyang Zhong></a>,
-<a Boyuan Jiang></a>,
+Chongyang Zhong,
+Boyuan Jiang,
 <a href="https://people.ucas.ac.cn/~xiashihong?language=en">Shihong Xia</a>, 
 IEEE Transactions on Visualization and Computer Graphics, DOI: 10.1109/TVCG.2023.3277918
 <sub>
@@ -41,8 +41,8 @@ Motion retargeting is a fundamental problem in computer graphics and computer vi
 **Realtime Style Transfer for Unlabeled Heterogeneous Human Motion**<br >
 <sub>
 <a href="https://people.ucas.ac.cn/~xiashihong?language=en">Shihong Xia</a>, 
-<a Congyi Wang> </a>, 
-<a Jinxiang Chai> </a>,
+Congyi Wang, 
+Jinxiang Chai,
 <a href="https://www.cs.cmu.edu/~jkh/">Jessica Hodgins</a>,
 ACM Transactions on Graphics, Volume 34, Issue 4, 27 July 2015, Article No.: 119, pp 1–10, https://doi.org/10.1145/2766999
 <sub>
