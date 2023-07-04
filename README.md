@@ -41,8 +41,8 @@ Motion retargeting is a fundamental problem in computer graphics and computer vi
 **Realtime Style Transfer for Unlabeled Heterogeneous Human Motion**<br >
 <sub>
 <a href="https://people.ucas.ac.cn/~xiashihong?language=en">Shihong Xia</a>, 
-<a Congyi Wang</a>, 
-<a Jinxiang Chai</a>,
+<a Congyi Wang </a>, 
+<a Jinxiang Chai </a>,
 <a href="https://www.cs.cmu.edu/~jkh/">Jessica Hodgins</a>,
 ACM Transactions on Graphics, Volume 34, Issue 4, 27 July 2015, Article No.: 119, pp 1–10, https://doi.org/10.1145/2766999
 <sub>
@@ -59,7 +59,7 @@ This paper presents a novel solution for realtime generation of stylistic human 
 -
 <a href="https://youtu.be/-c9nqPYtOlg">Video</a> 
 -
-<a src="Media/Siggraph_2015_style/paper.pdf">Paper</a>
+<a href="Media/Siggraph_2015_style/paper.pdf">Paper</a>
 -
 <a href="https://drive.google.com/file/d/1TiE5moEtX_PR0ELkLGo-0y6k13YwlIUa/view?usp=sharing">Dataset</a>
 -
