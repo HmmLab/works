@@ -1,0 +1,730 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HmmLab</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="bookmark" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TXEVECV8DQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TXEVECV8DQ');
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="heading"></div>
+        <div id="aboutme" class="section">
+            <div id="aboutmesectitle" class="sectitle">[About lAB]</div>
+            <div id="aboutmecontent" class="seccontent">
+                <div id="mypic">
+                    <!-- <a href="index.html">
+                        <img src="imgs/me.jpg" alt="Libin Liu" />
+                    </a> -->
+                </div>
+                <div id="myinfo">
+                    <p id="myname">
+                        HmmLab
+                    </p>
+                    <!-- <p id="myaffiliation">
+                        Assistant Professor
+                        <br /><br />
+                        <a class="institute" href="https://www.cis.pku.edu.cn/" target="_blank">
+                            School of Intelligence Science and Technology
+                        </a>
+                        <br />
+                        <a class="institute" href="http://english.pku.edu.cn/" target="_blank">Peking University</a>
+                    </p> -->
+                    <!-- <p id="contacttitle"></p>
+                    <p class="mycontact">
+                        Email: libin.liu [at] pku.edu.cn
+                    </p> -->
+                </div>
+                <div id="myintro">
+                    <p>
+                        实验室简介：<br/>
+                        
+                        <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project" class="section">
+            <div id="projsectitle" class="sectitle">[Projects]</div>
+            <div id="projects" class="seccontent">
+                
+                <div id="styleGesture" class="projitem">
+                    
+                    <div id="styleGesturestb" class="projthumbnail">
+                        <a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page" target="_self">
+                            <img src="image/Motif.gif" alt="styleGesture" />
+                        </a>
+                    </div>
+
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/abstract/document/9763364">
+                                Motif-GCNs With Local and Non-Local Temporal Blocks for Skeleton-Based Action Recognition.
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Yu-Hui Wen, Lin Gao, Hongbo Fu, Fang-Lue Zhang, Shihong Xia, Yong-Jin Liu -->
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Yu-Hui </a>,
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Lin Gao </a>,
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Hongbo Fu </a>,
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Fang-Lue Zhang </a>,
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Yong-Jin Liu</a>,
+                        </p>
+
+                        <p class="projbrief">
+                            Recent works have achieved remarkable performance for action recognition with human skeletal data by utilizing graph convolutional models. Existing models mainly focus on developing graph convolutional operations to encode structural properties of a skeletal graph,
+                            whose topology is manually predefined and fixed over all action samples. Some recent works further take sample-dependent relationships among joints into consideration. However, the complex relationships between arbitrary pairwise joints are difficult to learn and the temporal features between frames are not fully exploited by simply using traditional convolutions with small local kernels.
+                            In this paper, we propose a motif-based graph convolution method, which makes use of sample-dependent latent relations among non-physically connected joints to impose a high-order locality and assigns different semantic roles to physical neighbors of a joint to encode hierarchical structures. Furthermore, we propose a sparsity-promoting loss function to learn a sparse motif adjacency matrix for latent dependencies in non-physical connections. 
+                            For extracting effective temporal information, we propose an efficient local temporal block. It adopts partial dense connections to reuse temporal features in local time windows, and enrich a variety of information flow by gradient combination.
+                            In addition, we introduce a non-local temporal block to capture global dependencies among frames. Our model can capture local and non-local relationships both spatially and temporally, by integrating the local and non-local temporal blocks into the sparse motif-based graph convolutional networks (SMotif-GCNs).
+                            Comprehensive experiments on four large-scale datasets show that our model outperforms the state-of-the-art methods. 
+                            Our code is publicly available at https://github.com/wenyh1616/SAMotif-GCN .
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank">IEEE Transactions on Pattern Analysis and Machine Intelligence </a>( Volume: 45, Issue: 2, 01 February 2023)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Project Page</a>]
+                            [<a href="https://HmmLab.github.io/works/papers/Motif-GCNs_With_Local_and_Non-Local_Temporal_Blocks_for_Skeleton-Based_Action_Recognition.pdf">Paper</a>]
+                            <!-- [Video (<a href="https://www.youtube.com/watch?v=qy2MrNhsoIs">YouTube</a>|<a href="https://www.bilibili.com/video/BV1G24y1d7Tt">BiliBili</a>)] -->
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="controlVAE" class="projitem">
+                    <div id="controlVAEstb" class="projthumbnail">
+                        <a href="https://heyuanyao-pku.github.io/Control-VAE/" target="_self">
+                            <img src="projimg/controlVAE.png" alt="controlVAE" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://heyuanyao-pku.github.io/Control-VAE/">
+                                Control VAE: Model-Based Learning of Generative Controllers for Physics-Based Characters
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://heyuanyao-pku.github.io/" target="_blank">Heyuan Yao</a>,
+                            Zhenhua Song,
+                            <a class="name" href="http://baoquanchen.info/" target="_blank">Baoquan Chen</a>,
+                            <a class="name" href="index.html">Libin Liu†</a>
+                        </p>
+                        <p class="projbrief">
+                            We introduce Control VAE, a novel model-based framework for learning generative motion control policies,
+                            which allows high-level task policies to reuse various skills to accomplish downstream control tasks.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 41 Issue 6, Article 183 (SIGGRAPH Asia 2022).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://heyuanyao-pku.github.io/Control-VAE/">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2210.06063">Paper</a>]
+                            [Video (<a href="https://www.youtube.com/watch?v=ELZ7m4rLCgk">YouTube</a>|<a href="https://www.bilibili.com/video/BV1w8411s7Pu">BiliBili</a>)]
+                            [<a href="https://github.com/heyuanYao-pku/Control-VAE">Code</a>]
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="gesture" class="projitem">
+                    <div id="gesturestb" class="projthumbnail">
+                        <a href="https://pku-mocca.github.io/Rhythmic-Gesticulator-Page" target="_self">
+                            <img src="projimg/gesture.png" alt="gesture" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://pku-mocca.github.io/Rhythmic-Gesticulator-Page">
+                                Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://aubrey-ao.github.io/" target="_blank">Tenglong Ao</a>,
+                            <a class="name" href="https://talegqz.github.io/" target="_blank">Qingzhe Gao</a>,
+                            <a class="name" href="https://thorin666.github.io/" target="_blank">Yuke Lou</a>,
+                            <a class="name" href="http://baoquanchen.info/" target="_blank">Baoquan Chen</a>,
+                            <a class="name" href="index.html">Libin Liu†</a>
+                        </p>
+                        <p class="projbrief">
+                            We present a novel co-speech gesture synthesis method that achieves convincing results both on the rhythm and semantics.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 41 Issue 6, Article 209 (SIGGRAPH Asia 2022). (<a href="projimg/gesture_best_paper.png" target="_blank">SIGGRAPH Asia Best Paper Award</a>)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://pku-mocca.github.io/Rhythmic-Gesticulator-Page">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2210.01448">Paper</a>]
+                            [Video (<a href="https://www.youtube.com/watch?v=qy2MrNhsoIs">YouTube</a>|<a href="https://www.bilibili.com/video/BV1G24y1d7Tt">BiliBili</a>)]
+                            [<a href="https://github.com/Aubrey-ao/HumanBehaviorAnimation">Code</a>] (Coming soon...)
+                            [Explained  (<a href="https://www.youtube.com/watch?v=DO_W8plFWco/">YouTube (English)</a>|<a href="https://zhuanlan.zhihu.com/p/573998492/">知乎 (Chinese)</a>)]
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="neural3pt" class="projitem">
+                    <div id="neural3ptstb" class="projthumbnail">
+                        <a href="https://liamjing.github.io/Neural3Points/" target="_self">
+                            <img src="projimg/Neural3pt.png" alt="Neural3pt" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://liamjing.github.io/Neural3Points/">
+                                Neural3Points: Learning to Generate Physically Realistic Full-body Motion for Virtual Reality Users
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            Yongjing Ye,
+                            <a class="name" href="index.html">Libin Liu†</a>,
+                            Lei Hu,
+                            <a class="name" href="https://people.ucas.ac.cn/~xiashihong" target="_blank">Shihong Xia†</a> 
+                            <span class="projauthorcomment"></span>
+                        </p>
+                        <p class="projbrief">
+                            We present a method for real-time full-body tracking using three VR trackers provided by a typical 
+                            VR system:  one HMD (head-mounted display) and two hand-held controllers.
+                        </p>
+                        <p class="projconference">
+                            Computer Graphics Forum, Vol 41 Issue 8, Page 183-194 (SCA 2022).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://liamjing.github.io/Neural3Points/">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2209.05753">Paper</a>]
+                            [Video (<a href="https://www.youtube.com/watch?v=Y293EVW5jfM">YouTube</a>|<a href="https://www.bilibili.com/video/BV1KB4y1j7vg">BiliBili</a>)]
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="NeuralNovalActor" class="projitem">
+                    <div id="NeuralNovalActortb" class="projthumbnail">
+                        <a href="https://talegqz.github.io/neural_novel_actor/">
+                            <img src="NeuralNovalActor/NeuralNovalActor.png" alt="NeuralNovalActor" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://talegqz.github.io/neural_novel_actor/">
+                                Neural Novel Actor: Learning a Generalized Animatable Neural Representation for Human Actors
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://19reborn.github.io/", target="_blank">Yiming Wang</a>*,
+                            <a class="name" href="https://talegqz.github.io/" target="_blank">Qingzhe Gao</a>*,
+                            <a class="name" href="index.html">Libin Liu†</a>,
+                            <a class="name" href="https://lingjie0206.github.io/" target="_blank">Lingjie Liu†</a>,
+                            <a class="name" href="https://www.mpi-inf.mpg.de/~theobalt" target="_blank">Christian Theobalt</a>,
+                            <a class="name" href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen†</a>
+                            <span class="projauthorcomment">(*: equal comtribution, †: corresponding author)</span>
+                        </p>
+                        <p class="projbrief">
+                            We propose a new method for learning a generalized animatable neural human representation 
+                            from a sparse set of multi-view imagery of multiple persons.
+                        </p>
+                        <p class="projconference">
+                            arXiv 2022
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://talegqz.github.io/neural_novel_actor/">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2208.11905">Paper</a>]
+                            [<a href="https://www.youtube.com/watch?v=eiTJhYHAmWI">Video</a>]
+                            [Code] (Coming soon...)
+                        </p>
+                    </div>
+                </div>
+
+                
+                <div id="chopsticks" class="projitem">
+                    <div id="chopstickstb" class="projthumbnail">
+                        <a href="https://github.com/chopsticks-research2022/learning2usechopsticks">
+                            <img src="projimg/Chopsticks.png" alt="Chopsticks" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://github.com/chopsticks-research2022/learning2usechopsticks">
+                                Learning to Use Chopsticks in Diverse Gripping Styles
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://zeshiyang.github.io/" target="_blank">Zeshi Yang</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="index.html">Libin Liu†</a>
+                        </p>
+                        <p class="projbrief">
+                            We propose a physics-based learning and control framework for using chopsticks. 
+                            Robust hand controls for multiple hand morphologies and holding positions are first
+                            learned through Bayesian optimization and deep reinforcement learning. For tasks such as 
+                            object relocation, the low-level controllers track collision-free trajectories synthesized
+                            by a high-level motion planner.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 41 Issue 4, Article 95 (SIGGRAPH 2022).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://github.com/chopsticks-research2022/learning2usechopsticks">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2205.14313">Paper</a>]
+                            [Video (<a href="https://www.youtube.com/watch?v=rQHzwnSdsP8">YouTube</a>|<a href="https://www.bilibili.com/video/BV1ET411g7qM">BiliBili</a>)]
+                            [<a href="https://github.com/chopsticks-research2022/learning2usechopsticks">Code</a>]
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div id="cameraKeyframing" class="projitem">
+                    <div id="cameraKeyframingtb" class="projthumbnail">
+                        <a href="https://jianghd1996.github.io/publication/siga_2021/">
+                            <img src="CameraKeyframing/CameraKeyframing.jpg" alt="CameraKeyframing" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://jianghd1996.github.io/publication/siga_2021/">
+                                Camera Keyframing with Style and Control
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://jianghd1996.github.io/" target="_blank">Hongda Jiang</a>,
+                            <a class="name" href="http://people.irisa.fr/Marc.Christie/" target="_blank">Marc Christie</a>,
+                            <a class="name" href="https://triocrossing.github.io/" target="_blank">Xi Wang</a>,
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://binwangbfa.github.io/" target="_blank">Bin Wang</a>,
+                            <a class="name" href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>
+                        </p>
+                        <p class="projbrief">
+                            We present a tool that enables artists to synthesize camera motions following a learned camera behavior
+                            while enforcing user-designed keyframes as constraints along the sequence.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 40 Issue 6, Article 209 (SIGGRAPH Asia 2021).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://jianghd1996.github.io/publication/siga_2021/" target="_self">Project Page</a>]
+                            [<a href="CameraKeyframing/CameraKeyframing.pdf">Paper</a> 20.1MB]
+                            [<a href="https://www.youtube.com/watch?v=oTwkhVfOcKw">Video</a>]
+                            [<a href="https://github.com/jianghd1996/Camera-control">Code</a>]
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div id="neuralBlendShapes" class="projitem">
+                    <div id="neuralBlendShapestb" class="projthumbnail">
+                        <a href="https://peizhuoli.github.io/publication/neural-blend-shapes/">
+                            <img src="NeuralBlendShapes/NeuralBlendShapes.jpg" alt="NeuralBlendShapes" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://peizhuoli.github.io/publication/neural-blend-shapes/">
+                                Learning Skeletal Articulations With Neural Blend Shapes
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://peizhuoli.github.io/" target="_blank">Peizhuo Li</a>,
+                            <a class="name" href="https://kfiraberman.github.io/" target="_blank">Kfir Aberman</a>,
+                            <a class="name" href="https://people.cs.uchicago.edu/~ranahanocka/" target="_blank">Rana Hanocka</a>,
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://igl.ethz.ch/people/sorkine/" target="_blank">Olga Sorkine-Hornung</a>,
+                            <a class="name" href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>
+                        </p>
+                        <p class="projbrief">
+                            We present a technique for articulating 3D characters with pre-defined skeletal structure and high-quality deformation,
+                            using neural blend shapes — corrective, pose-dependent, shapes that improve deformation quality in joint regions.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 40 Issue 4, Article 130 (SIGGRAPH 2021).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://peizhuoli.github.io/publication/neural-blend-shapes/" target="_self">Project Page</a>]
+                            [<a href="https://arxiv.org/abs/2105.02451">Paper</a>]
+                            [<a href="https://www.youtube.com/watch?v=antc20EFh6k">Video</a>]
+                            [<a href="https://github.com/PeizhuoLi/neural-blend-shapes">Code</a>]
+                        </p>
+                    </div>
+                </div>
+                
+                <div id="CoPartSeg" class="projitem">
+                    <div id="CoPartSegtb" class="projthumbnail">
+                        <a href="https://github.com/Talegqz/unsupervised_co_part_segmentation">
+                            <img src="CoPartSeg/CoPartSeg.png" alt="CoPartSeg" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://github.com/Talegqz/unsupervised_co_part_segmentation">
+                                Unsupervised Co-part Segmentation through Assembly
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://talegqz.github.io/" target="_blank">Qingzhe Gao</a>,
+                            <a class="name" href="https://binwangbfa.github.io/" target="_blank">Bin Wang</a>,
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>
+                        </p>
+                        <p class="projbrief">
+                            We propose an unsupervised learning approach for co-part segmentation from images.
+                        </p>
+                        <p class="projconference">
+                            Proceedings of the 38th International Conference on Machine Learning (ICML), <br /> PMLR 139:3576-3586, 2021. 
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://github.com/Talegqz/unsupervised_co_part_segmentation" target="_self">Project Page</a>]
+                            [<a href="CoPartSeg/CoPartSeg.pdf">Paper</a> 3.2MB]
+                            [<a href="CoPartSeg/CoPartSeg-Supp.pdf">Supplementary</a> 5.4MB]
+                            [<a href="CoPartSeg/CoPartSegVideo.mov">Video</a> 28MB]
+                            [<a href="https://github.com/Talegqz/unsupervised_co_part_segmentation">Code</a>]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="basketball" class="projitem">
+                    <div id="basketballtb" class="projthumbnail">
+                        <a href="http://graphics.cs.cmu.edu/?p=1590">
+                            <img src="Basketball/Basketball.jpg" alt="Basketball" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="http://graphics.cs.cmu.edu/?p=1590">
+                                Learning Basketball Dribbling Skills Using Trajectory Optimization and Deep Reinforcement Learning
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="http://www.cs.cmu.edu/~jkh/" target="_blank">Jessica K. Hodgins</a>
+                        </p>
+                        <p class="projbrief">
+                                We present a method based on trajectory optimization and deep reinforcement learning for 
+                                learning robust controllers for various basketball dribbling skills, such as dribbling
+                                 between the legs, running, and crossovers.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 37 Issue 4, Article 142 (SIGGRAPH 2018).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="http://graphics.cs.cmu.edu/?p=1590" target="_self">Project Page</a>]
+                            [<a href="Basketball/Basketball.pdf">Paper</a>  6.7MB]
+                            [<a href="Basketball/Basketball_SIGGRAPH_final.mp4">Video</a> 123MB]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="schehduler" class="projitem">
+                    <div id="schehdulertb" class="projthumbnail">
+                        <a href="http://graphics.cs.cmu.edu/?p=1324">
+                            <img src="Scheduler/SkateboardTask.png" alt="Scheduler" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="http://graphics.cs.cmu.edu/?p=1324">
+                                Learning to Schedule Control Fragments for Physics-Based Characters Using Deep Q-Learning
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="http://www.cs.cmu.edu/~jkh/" target="_blank">Jessica K. Hodgins</a>
+                        </p>
+                        <p class="projbrief">
+                            We present a deep Q-learning based method for learning a scheduling scheme that reorders short control fragments 
+                            as necessary at runtime to achieve robust control of challenging skills such as skateboarding.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 36 Issue 3, Article 29. (presented at SIGGRAPH 2017) 
+                        </p>
+                        <p class="projlinks">
+                            [<a href="http://graphics.cs.cmu.edu/?p=1324" target="_self">Project Page</a>]
+                            [<a href="Scheduler/SchedulerTOG.pdf">Paper</a>  1.5MB]
+                            [<a href="Scheduler/SchedulerTOG.Video.mp4">Video</a> 157MB]
+                        </p>
+                    </div>
+                </div>
+    
+
+                <div id="controlgraphs" class="projitem">
+                    <div id="controlgraphstb" class="projthumbnail">
+                        <a href="https://www.cs.ubc.ca/~van/papers/2016-TOG-controlGraphs/index.html">
+                            <img src="ControlGraphs/ControlGraphs.jpg" alt="ControlGraphs" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://www.cs.ubc.ca/~van/papers/2016-TOG-controlGraphs/index.html">
+                                Guided Learning of Control Graphs for Physics-Based Characters 
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www.cs.ubc.ca/~van/" target="_blank">Michiel van de Panne</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                        </p>
+                        <p class="projbrief">
+                            We present a method for learning robust control graphs that support real-time 
+                            physics-based simulation of multiple characters, each capable of a diverse range of movement skills.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 35, Issue 2, Article 29. (presented at SIGGRAPH 2016) 
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://www.cs.ubc.ca/~van/papers/2016-TOG-controlGraphs/index.html" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N04245">Paper</a>  8.9MB]
+                            [<a href="ControlGraphs/ControlGraphs.mp4">Video</a> 117MB]
+                            [<a href="ControlGraphs/ControlGraphs_Slides.pdf">Slides</a> 1.6MB]
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://youtu.be/m9XAZDSR1ag?list=PLS5Cv1oxSyirGuUKev5CLNq-fjkkdjtIj" target="_blank">I've fallen, but I can get up!</a>]
+                        </p>
+                    </div>
+                </div>
+
+
+                <div id="reducedorder" class="projitem">
+                    <div id="reducedordertb" class="projthumbnail">
+                        <a href="https://www.cs.ubc.ca/~van/papers/2015-SCA-reducedOrder/index.html">
+                            <img src="projimg/2015-SCA-reducedOrder.png" alt="ReducedOrder" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="https://www.cs.ubc.ca/~van/papers/2015-SCA-reducedOrder/index.html">
+                                Learning Reduced-Order Feedback Policies for Motion Skills
+                            </a>
+                        </p>
+                        <p class="projauthor">
+                            <span class="name">Kai Ding</span>,
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www.cs.ubc.ca/~van/" target="_blank">Michiel van de Panne</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>
+                        </p>
+                        <p class="projconference">
+                            Proc. ACM SIGGRAPH / Eurographics Symposium on Computer Animation 2015 (<a href="imgs/SCABestPaper2015-Ding.pdf" target="_blank">SCA Best Paper Award</a>)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="https://www.cs.ubc.ca/~van/papers/2015-SCA-reducedOrder/index.html" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N20733" target="_blank">Paper</a> 2.5MB]
+                        </p>
+                    </div>
+                </div>
+
+
+                <div id="elasticparam" class="projitem">
+                    <div id="elasticparamtb" class="projthumbnail">
+                        <a href="http://vcc.szu.edu.cn/research/2015/DCM/">
+                            <img src="imgs/SoftCapture.png" alt="Deformation" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="http://vcc.szu.edu.cn/research/2015/DCM/">Deformation Capture and Modeling of Soft Objects</a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="https://binwangbfa.github.io/">Bin Wang</a>,
+                            <a class="name" href="http://vcc.siat.ac.cn/console/homepage/index?uid=45">Longhua Wu</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="http://www.cs.ubc.ca/~ascher/">Uri Ascher</a>,
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="http://web.siat.ac.cn/~huihuang/" target="_blank">Hui Huang</a>.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 34, Issue 4, Article 94 (SIGGRAPH 2015)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="http://vcc.szu.edu.cn/research/2015/DCM/" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N20732" target="_blank">Paper</a> 70MB]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="samcon2" class="projitem">
+                    <div id="samcon2tb" class="projthumbnail">
+                        <a href="Samcon2/Samcon2.html">
+                            <img src="Samcon2/Samcon2tb.png" alt="Samcon2" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="Samcon2/Samcon2.html">Improving Sampling-based Motion Control</a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="http://research.microsoft.com/en-us/people/bainguo/" target="_blank">Baining Guo</a>.
+                        </p>
+                        <p class="projbrief">
+                            We address several limitations of the <a class="name" href="Samcon/Samcon.html">sampling-based motion control method</a>.
+                            A variety of highly agile motions, ranging from stylized walking and dancing to gymnastic and Martial Arts routines,
+                            can be easily reconstructed now.
+                        </p>
+                        <p class="projconference">
+                            Computer Graphics Forum 34(2) (Eurographics 2015).
+                        </p>
+                        <p class="projlinks">
+                            [<a href="Samcon2/Samcon2.html" target="_self">Project Page</a>]
+                            [<a href="Samcon2/Samcon2_EG.pdf" target="_blank">Paper</a> 3.8MB]
+                            [<a href="Samcon2/Samcon2-eg_Final.mov" target="_blank">Video</a> 59.8MB]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="softctrl" class="projitem">
+                    <div id="softctrltb" class="projthumbnail">
+                        <a href="SoftControl/SoftControl.html">
+                            <img src="SoftControl/panda_thumbnail.png" alt="Soft Control" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="SoftControl/SoftControl.html">Simulation and Control of Skeleton-driven Soft Body Characters</a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="https://binwangbfa.github.io/">Bin Wang</a>,
+                            <a class="name" href="http://research.microsoft.com/en-us/people/bainguo/" target="_blank">Baining Guo</a>.
+                        </p>
+                        <p class="projbrief">
+                            We present a physics-based framework for simulation and control of human-like skeleton-driven
+                            soft body characters. We propose a novel pose-based plasticity model to achieve large skin
+                            deformation around joints. We further reconstruct controls from reference trajectories captured
+                            from human subjects by augmenting a sampling-based algorithm.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 32, Issue 6, Article 215 (SIGGRAPH Asia 2013)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="SoftControl/SoftControl.html" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N20731" target="_blank">Paper</a>  6.4MB]
+                            [<a href="SoftControl/SoftControl_4.mov" target="_blank">Video</a> 106MB]
+                            [<a href="SoftControl/SoftControl_Slides.pdf" target="_blank">Slides</a> 5.4MB]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="parkour" class="projitem">
+                    <div id="parkourimg" class="projthumbnail">
+                        <a href="Parkour/Parkour.html">
+                            <img src="Parkour/vault.png" alt="Terrain Runner" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="Parkour/Parkour.html">Terrain Runner: Control, Parameterization, Composition, and Planning for Highly Dynamic Motions</a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="https://www.cs.ubc.ca/~van/" target="_blank">Michiel van de Panne</a>,
+                            <a class="name" href="http://research.microsoft.com/en-us/people/bainguo/" target="_blank">Baining Guo</a>.
+                        </p>
+                        <p class="projbrief">
+                            We present methods for the control, parameterization, composition, and planning for highly dynamic motions.
+                            More specifically, we learn the skills required by real-time physics-based avatars to perform parkour-style
+                            fast terrain crossing using a mix of running, jumping, speed-vaulting, and drop-rolling.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 31, Issue 6, Article 154 (SIGGRAPH Asia 2012)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="Parkour/Parkour.html" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N20730" target="_blank">Paper</a>  40MB]
+                            [Video: <a href="Parkour/Parkour_Long.mov" target="_blank">Full</a> 103MB]
+                            [<a href="Parkour/Parkour_Slides.pdf" target="_blank">Slides</a>  2.9MB]
+                        </p>
+                    </div>
+                </div>
+
+                <div id="samcon" class="projitem">
+                    <div id="samconimg" class="projthumbnail">
+                        <a href="Samcon/Samcon.html">
+                            <img src="Samcon/Samcon.png" alt="Samcon" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <a class="papertitle" href="Samcon/Samcon.html">Sampling-based Contact-rich Motion Control</a>
+                        </p>
+                        <p class="projauthor">
+                            <a class="name" href="index.html">Libin Liu</a>,
+                            <a class="name" href="https://www2.cs.sfu.ca/~kkyin/" target="_blank">KangKang Yin</a>,
+                            <a class="name" href="https://www.cs.ubc.ca/~van/" target="_blank">Michiel van de Panne</a>,
+                            <span class="name">Tianjia Shao</span>
+                            <a class="name" href="http://weiweixu.net/" target="_blank">Weiwei Xu</a>.
+                        </p>
+                        <p class="projbrief">
+                            Given a motion capture trajectory, we propose to extract its control by randomized sampling.
+                        </p>
+                        <p class="projconference">
+                            ACM Transactions on Graphics, Vol 29, Issue 4, Article 128 (SIGGRAPH 2010)
+                        </p>
+                        <p class="projlinks">
+                            [<a href="Samcon/Samcon.html" target="_self">Project Page</a>]
+                            [<a href="http://dl.acm.org/authorize?N20739" target="_blank">Paper</a>  6.8MB]
+                            [<a href="Samcon/Samcon.mov" target="_blank">Video</a> 44.3MB (with audio)]
+                            [<a href="Samcon/Samcon_Slides.pdf" target="_blank">Slides</a>  1.6MB]
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="activity" class="section">
+            <div id="activitysectitle" class="sectitle">[Professional Activities]</div>
+            <div id="activities" class="seccontent">
+                <div class="activitytype">
+                    Program Committee:
+                    <ul>
+                        <li>ACM SIGGRAPH North America 2019, 2020, Asia 2022</li>
+                        <li>Pacific Graphics 2018, 2019, 2022</li>
+                        <li>SCA 2015-2019, 2021-2023</li>
+                        <li>MIG 2014, 2016-2019, 2022</li>
+                        <li>Eurographics Short Papers 2020, 2021</li>
+                        <li>SIGGRAPH Asia 2014 Posters and Technical Briefs</li>
+                        <li>CASA (Computer Animation and Social Agents) 2017, 2023</li>
+                        <li>Graphics Interface 2023</li>
+                        <li>CAD/Graphics 2017, 2019</li>
+                    </ul>
+                </div>
+                <div class="activitytype">
+                    Paper Reviewing:
+                    <ul>
+                        <li>SIGGRAPH NA/Asia</li>
+                        <li>ACM Transactions on Graphics (TOG)</li>
+                        <li>IEEE Transactions on Visualization and Computer Graphics (TVCG)</li>
+                        <li>International Conference on Computer Vision (ICCV)</li>
+                        <li>Eurographics (Eupopean Association for Computer Graphics)</li>
+                        <li>Pacific Graphics</li>
+                        <li>Computer Graphics Forum</li>
+                        <li>IEEE International Conference on Robotics and Automation (ICRA)</li>
+                        <li>ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA)</li>
+                        <li>ACM SIGGRAPH Conference on Motion, Interaction and Games (MIG)</li>
+                        <li>Computer Animation and Social Agents (CASA)</li>
+                        <li>Graphics Interface</li>
+                        <li>Computers & Graphics</li>
+                        <li>Graphical Models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footing"></div>
+    </div>
+</body>
+</html>
