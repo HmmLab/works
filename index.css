@@ -10,7 +10,7 @@
     height: 240px;
    
 }
-
+*/
 div#mypic
 {
  
@@ -22,10 +22,10 @@ div#mypic
     {
         width: 180px;
         height: 240px;
-    } */
+    } 
 
 
-/* p#myname
+p#myname
 {
     margin: 25px 0px 15px;
     font-size: 1.2em;
@@ -47,7 +47,7 @@ p.mycontact
     font-size: 0.9em;
     padding-left: 4em;
     text-indent: -4em;
-} */
+}
 
 
 div#myintro
@@ -73,8 +73,8 @@ div#myintro
     color: #000000;
     font-variant: small-caps;
     font-size: 1.1em;
-    /*font-weight: bold;*/
-    /*outline-color: #AAAAAA;*/
+    font-weight: bold;
+    /* outline-color: #AAAAAA; */
     /*outline-style: ridge;*/
 }
 
@@ -96,14 +96,12 @@ div#myintro
     width: 160px;
     height: 160px;
 }
-
     .projthumbnail img
     {
         width: 160px;
         height: 160px;
         object-fit: contain;
     }
-
 .projintro
 {
     width: 75%;
@@ -137,7 +135,7 @@ div#myintro
     width: 92%;
     font-style: oblique;
     font-size: 0.9em;
-    /*text-align: justify;*/
+    text-align: justify;
 }
 
 .projconference

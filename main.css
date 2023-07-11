@@ -1,0 +1,93 @@
+
+
+/* */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    height: auto;
+    width: auto;
+}
+a.name
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #2200AA;
+    text-decoration: none;
+}
+    a:hover.name
+    {
+        color: #006666;
+        text-decoration: underline;
+    }
+    
+span.name
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #2200AA;
+    text-decoration: none;
+}
+  
+a.institute
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+    a:hover.institute
+    {
+        color: #008888;
+        text-decoration: underline;
+    }
+
+a.papertitle
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+    a:hover.papertitle
+    {
+        color: #008888;
+        text-decoration: underline;
+    }
+
+div
+{
+    background: transparent;
+    float: left;
+}
+
+    div#wrapper
+    {
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        width: 800px; /*80%;*/
+        height: auto;
+        text-align: left;
+        float: none;
+        /*min-width: 600px;*/
+        /*max-width: 800px;*/
+    }
+
+    div#heading
+    {
+        height: 30px;
+        width: 100%;
+        clear: both;
+    }
+
+    div#footing
+    {
+        height: 100px;
+        width: 100%;
+        clear: both;
+    }
