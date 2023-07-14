@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>HmmLab</title>
-
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="bookmark" href="favicon.ico" type="image/x-icon" />
@@ -61,10 +60,11 @@
 
         <div id="project" class="section">
             <div id="projsectitle" class="sectitle">[Projects]</div>
-            <div id="projects" class="seccontent">            
+            <div id="projects" class="seccontent">  
+                <div id="projects" class="sectitle"> [2023] </div>
                 <div id="Motif" class="projitem">
                     <div id="Motif" class="projthumbnail">
-                        <a href="https://github.com/wenyh1616/SAMotif-GCN" target="_self">
+                        <a href="https://HmmLab.github.io/works/image/Motif.gif" target="_self">
                             <img src="https://HmmLab.github.io/works/image/Motif.gif" alt="Motif" />
                         </a>
                     </div>
@@ -78,21 +78,11 @@
                         <p class="projauthor">
                             <!-- Yu-Hui Wen, Lin Gao, Hongbo Fu, Fang-Lue Zhang, Shihong Xia, Yong-Jin Liu -->
                             <a class="name" href="https://ieeexplore.ieee.org/author/37089016300" target="_blank">Yu-Hui </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37085738359" target="_blank">Lin Gao </a>,
+                            <a class="name" href="http://geometrylearning.com/" target="_blank">Lin Gao </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37626240300" target="_blank">Hongbo Fu </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/38474069400" target="_blank">Fang-Lue Zhang </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37288203400" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37279426700" target="_blank">Yong-Jin Liu</a>,
-                        </p>
-
-                        <p class="projbrief">
-                            Recent works have achieved remarkable performance for action recognition with human skeletal data by utilizing graph convolutional models. Existing models mainly focus on developing graph convolutional operations to encode structural properties of a skeletal graph,
-                            whose topology is manually predefined and fixed over all action samples. Some recent works further take sample-dependent relationships among joints into consideration. However, the complex relationships between arbitrary pairwise joints are difficult to learn and the temporal features between frames are not fully exploited by simply using traditional convolutions with small local kernels.
-                            In this paper, we propose a motif-based graph convolution method, which makes use of sample-dependent latent relations among non-physically connected joints to impose a high-order locality and assigns different semantic roles to physical neighbors of a joint to encode hierarchical structures. Furthermore, we propose a sparsity-promoting loss function to learn a sparse motif adjacency matrix for latent dependencies in non-physical connections. 
-                            For extracting effective temporal information, we propose an efficient local temporal block. It adopts partial dense connections to reuse temporal features in local time windows, and enrich a variety of information flow by gradient combination.
-                            In addition, we introduce a non-local temporal block to capture global dependencies among frames. Our model can capture local and non-local relationships both spatially and temporally, by integrating the local and non-local temporal blocks into the sparse motif-based graph convolutional networks (SMotif-GCNs).
-                            Comprehensive experiments on four large-scale datasets show that our model outperforms the state-of-the-art methods. 
-                            Our code is publicly available at https://github.com/wenyh1616/SAMotif-GCN .
                         </p>
                         <p class="projconference">
                             <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank">
@@ -109,7 +99,7 @@
                 
                 <div id="Multiscale" class="projitem">
                     <div id="Multiscale" class="projthumbnail">
-                        <a href="https://ieeexplore.ieee.org/document/9537699" target="_self">
+                        <a href="image/Multiscale Mesh.gif" target="_self">
                             <img src="image/Multiscale Mesh.gif" alt="Motif" />
                         </a>
                     </div>
@@ -124,20 +114,11 @@
                         <p class="projauthor">
                             <!-- Jie Yang; Lin Gao; Qingyang Tan; Yi-Hua Huang; Shihong Xia; Yu-Kun Lai -->
                             <a class="name" href="https://ieeexplore.ieee.org/author/37088450605" target="_blank">Jie Yang </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37085738359" target="_blank">Lin Gao </a>,
+                            <a class="name" href="http://geometrylearning.com/" target="_blank">Lin Gao </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37086567528" target="_blank">Qingyang Tan </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37089542762" target="_blank">Yi-Hua Huang </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37288203400" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/38575316500" target="_blank">Yu-Kun Lai</a>,
-                        </p>
-
-                        <p class="projbrief">
-                            Deformation component analysis is a fundamental problem in geometry processing and shape understanding. 
-                            Existing approaches mainly extract deformation components in local regions at a similar scale while deformations of real-world objects are usually distributed in a multi-scale manner. 
-                            In this article, we propose a novel method to exact multiscale deformation components automatically with a stacked attention-based autoencoder. 
-                            The attention mechanism is designed to learn to softly weight multi-scale deformation components in active deformation regions, and the stacked attention-based autoencoder is learned to represent the deformation components at different scales.
-                            Quantitative and qualitative evaluations show that our method outperforms state-of-the-art methods. Furthermore, with the multiscale deformation components extracted by our method, 
-                            the user can edit shapes in a coarse-to-fine fashion which facilitates effective modeling of new shapes.
                         </p>
                         <p class="projconference">
                             <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
@@ -154,7 +135,7 @@
 
                 <div id="Pose-aware" class="projitem">
                     <div id="Pose-aware" class="projthumbnail">
-                        <a href="https://arxiv.org/abs/2306.08006" target="_self">
+                        <a href="himage/Pose-aware.png" target="_self">
                             <img src="image/Pose-aware.png" alt="Pose-aware" />
                         </a>
                     </div>
@@ -169,21 +150,12 @@
                         <p class="projauthor">
                             <!-- Lei Hu, Zihao Zhang, Chongyang Zhong, Boyuan Jiang, Shihong Xia -->
                             <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37085738359" target="_blank">Lin Gao </a>,
+                            <a class="name" href="http://geometrylearning.com/" target="_blank">Lin Gao </a>,
                             <a class="name" href="http://zihaozhang.tech/" target="_blank">Zihao Zhang</a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37089543322" target="_blank">Chongyang Zhong </a>,
                             <a class="name" href="https://ieeexplore.ieee.org/author/37086479093" target="_blank">Boyuan Jiang</a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37288203400" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
                             
-                        </p>
-
-                        <p class="projbrief">
-                            Motion retargeting is a fundamental problem in computer graphics and computer vision. 
-                            Existing approaches usually have many strict requirements, such as the source-target skeletons needing to have the same number of joints or share the same topology.
-                            To tackle this problem, we note that skeletons with different structure may have some common body parts despite the differences in joint numbers. Following this observation,
-                            we propose a novel, flexible motion retargeting framework. The key idea of our method is to regard the body part as the basic retargeting unit rather than directly retargeting the whole body motion. 
-                            To enhance the spatial modeling capability of the motion encoder,we introduce a pose-aware attention network (PAN) in the motion encoding phase. The PAN is pose-aware since it can dynamically predict the joint weights within each body part based on the input pose,
-                            and then construct a shared latent space for each body part by feature pooling. Extensive experiments show that our approach can generate better motion retargeting results both qualitatively and quantitatively than state-of-the-art methods. Moreover, we also show that our framework can generate reasonable results even for a more challenging retargeting scenario, like retargeting between bipedal and quadrupedal skeletons because of the body part retargeting strategy and PAN. Our code is publicly available.
                         </p>
                         <p class="projconference">
                             <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
@@ -198,9 +170,10 @@
                     </div>
                 </div>
 
+                <div id="projects" class="sectitle"> [2022] </div>
                 <div id="RAID-Net" class="projitem">
                     <div id="RAID-Net" class="projthumbnail">
-                        <a href="https://ieeexplore.ieee.org/document/9840371" target="_self">
+                        <a href="image/RAID-Net.gif" target="_self">
                             <img src="image/RAID-Net.gif" alt="RAID-Net" />
                         </a>
                     </div>
@@ -216,18 +189,8 @@
                             <!-- Lianjun Liao; Zihao Zhang; Shihong Xia -->
                             <a class="name" href="https://ieeexplore.ieee.org/author/37086108917" target="_blank">Lianjun Liao </a>,
                             <a class="name" href="http://zihaozhang.tech/" target="_blank">Zihao Zhang </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37288203400" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
                             
-                        </p>
-
-                        <p class="projbrief">
-                            Image deblurring is a challenging field in computational photography and computer vision. In the deep learning era, deblurring methods boosted with neural networks achieve significant results. However, 
-                            the existing methods mainly focus on solving specific image deblurring problem, and overlook the origin of the motion blur. In this paper, we revisit how blur occurs, and divide them into three categories, 
-                            i.e. caused by relative motion between camera and scene, caused by the movement of the object itself and the edges of a blurring image, which may meet discontinuity because of the pixels trajectory sampled outside the image. 
-                            To address the issues of different blurs in an image, we propose a two-stage neural network for image deblurring named RAID-Net. 
-                            In order to remove the global blurry region caused by camera movements, we first use a U-shape network to get the coarse deblurred image.
-                            Then we leverage an adaptive reasoning module to model the relationship between different blurry regions within one image jointly and remove the other two categories of motion blur. 
-                            Experiments on two public benchmark datasets demonstrate that our method achieves comparable or better results over the state-of-the-art methods.
                         </p>
                         <p class="projconference">
                             <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639" target="_blank">
@@ -245,7 +208,7 @@
                 <!-- Neural3Points: Learning to Generate Physically Realistic Full-body Motion for Virtual Reality Users -->
                 <div id="Neural3Points" class="projitem">
                     <div id="Pose-aware" class="projthumbnail">
-                        <a href="https://liamjing.github.io/Neural3Points/" target="_self">
+                        <a href="image/Neural3Points.png" target="_self">
                             <img src="image/Neural3Points.png" alt="Pose-aware" />
                         </a>
                     </div>
@@ -257,22 +220,12 @@
                         </p>
                         <!-- 作者 -->
                         <p class="projauthor">
-                            <!-- Yongjing Ye, Libin Liu, Lei Hu, Shihong Xia -->
-                            
+                            <!-- Yongjing Ye, Libin Liu, Lei Hu, Shihong Xia -->                            
                             <a class="name" href="https://liamjing.github.io/" target="_blank">Yongjing Ye </a>,
                             <a class="name" href="https://libliu.info/" target="_blank">Libin Liu</a>,
                             <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
-                            <a class="name" href="https://ieeexplore.ieee.org/author/37288203400" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
                             
-                        </p>
-
-                        <p class="projbrief">
-                            Animating an avatar that reflects a user’s action in the VR world enables natural interactions with the virtual environment. 
-                            It has the potential to allow remote users to communicate and collaborate in a way as if they met in person. However, a typical VR system provides only a very sparse set of up to three positional sensors, 
-                            including a head-mounted display (HMD) and optionally two hand-held controllers, making the estimation of the user’s full-body movement a difficult problem. 
-                            In this work, we present a data-driven physics-based method for predicting the realistic full-body movement of the user according to the transformations of these VR trackers and simulating an avatar character to mimic such user actions in the virtual world in real-time. 
-                            We train our system using reinforcement learning with carefully designed pretraining processes to ensure the success of the training and the quality of the simulation. 
-                            We demonstrate the effectiveness of the method with an extensive set of examples.
                         </p>
                         <p class="projconference">
                             <a class="name" href="https://www.scimagojr.com/journalsearch.php?q=25023&tip=sid" target="_blank">
@@ -286,8 +239,334 @@
                         </p>
                     </div>
                 </div>
-            </div>
+
+                 <!-- Spatial-Temporal Gating-Adjacency GCN for Human Motion Prediction. -->
+                <div id="Spatial-Temporal" class="projitem">                   
+                    <div id="Spatial-Temporal" class="projthumbnail">
+                        <a href="image/Spatial-Temporal.gif" target="_self">
+                            <img src="image/Spatial-Temporal.gif" alt="Spatial-Temporal" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/document/9879222">
+                                Spatial-Temporal Gating-Adjacency GCN for Human Motion Prediction
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Chongyang Zhong; Lei Hu; Zihao Zhang; Yongjing Ye; Shihong Xia -->
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37089543322" target="_blank">Chongyang Zhong </a>,
+                            <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
+                            <a class="name" href="http://zihaozhang.tech/" target="_blank">Zihao Zhang </a>,
+                            <a class="name" href="https://liamjing.github.io/" target="_blank">Yongjing Ye </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/conhome/9878378/proceeding" target="_blank">
+                                2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) </a> 
+                        <p class="projlinks">
+                            [<a href="https://github.com/Hmslab/Adapose">Project Page</a>]
+                            [<a href="papers/Spatio-Temporal_Gating-Adjacency_GCN_for_Human_Motion_Prediction.pdf">Paper</a>]
+                            [<a href="video/Spatio-Temporal.mp4">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Active Colorization for Cartoon Line Drawings. -->
+                <div id="Active-Colorization" class="projitem">                   
+                    <div id="Active-Colorization" class="projthumbnail">
+                        <a href="image/Active-Colorization.gif" target="_self">
+                            <img src="image/Active-Colorization.gif" alt="Active-Colorization" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/document/9143503">
+                                Active Colorization for Cartoon Line Drawings
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Shu-Yu Chen; Jia-Qi Zhang; Lin Gao; Yue He; Shihong Xia; Min Shi; Fang-Lue Zhang-->
+                            <a class="name" href="http://people.geometrylearning.com/csy/" target="_blank">Shu-Yu Chen </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37087232590" target="_blank">Jia-Qi Zhang</a>,
+                            <a class="name" href="http://geometrylearning.com/" target="_blank">Lin Gao </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37089217482/" target="_blank">Yue He </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37089216907" target="_blank">Min Shi </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/38474069400" target="_blank">Fang-Lue Zhang </a>,
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
+                                IEEE Transactions on Visualization and Computer Graphics </a> ( Volume: 28, Issue: 2, 01 February 2022)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Active_Colorization_for_Cartoon_Line_Drawings.pdf">Paper</a>]
+                            [<a href="video/Active-Colorization.mp4">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+
+                <!--Spatial-temporal modeling for prediction of stylized human motion. -->
+                <div id="Spatio-temporal" class="projitem">                   
+                    <div id="Spatio-temporal" class="projthumbnail">
+                        <a href="image/Spatio-temporal.jpg" target="_self">
+                            <img src="image/Spatio-temporal.jpg" alt="Spatio-temporal" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://www.sciencedirect.com/science/article/pii/S092523122201075X">
+                                Spatial-temporal modeling for prediction of stylized human motion
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Chongyang Zhong, Lei Hu, Shihong Xia-->
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37089543322" target="_blank">Chongyang Zhong </a>,
+                            <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://www.sciencedirect.com/journal/neurocomputing" target="_blank">
+                                Neurocomputing </a> ( Volume 511, 28 October 2022, Pages 34-42)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Spatial–temporal modeling for prediction of stylized human motion.pdf">Paper</a>]
+                            [<a>Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!--Learning Uncoupled-Modulation CVAE for 3D Action-Conditioned Human Motion Synthesis. -->
+                <div id="Learning_Uncoupled-Modulation" class="projitem">                   
+                    <div id="Learning_Uncoupled-Modulation" class="projthumbnail">
+                        <a href="image/Learning_Uncoupled-Modulation.png" target="_self">
+                            <img src="image/Learning_Uncoupled-Modulation.png" alt="Learning_Uncoupled-Modulation" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://link.springer.com/chapter/10.1007/978-3-031-19803-8_42">
+                                Learning Uncoupled-Modulation CVAE for 3D Action-Conditioned Human Motion Synthesis
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Chongyang Zhong, Lei Hu, Zihao Zhang & Shihong Xia -->
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37089543322" target="_blank">Chongyang Zhong </a>,
+                            <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
+                            <a class="name" href="http://zihaozhang.tech/" target="_blank">Zihao Zhang </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://dblp.uni-trier.de/db/conf/eccv/index.html" target="_blank">
+                                Computer Vision–ECCV 2022</a> ( LNCS,volume 13681)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Learning Uncoupled-Modulation CVAE for 3D Action-Conditioned Human Motion Synthesis.pdf">Paper</a>]
+                            [<a>Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
                 
+                <div id="projects" class="sectitle"> [2021] </div>
+                <!--Combining Recurrent Neural Networks and Adversarial Training for Human Motion Synthesis and Control -->
+                <div id="Combining_Recurrent" class="projitem">                   
+                    <div id="Combining_Recurrent" class="projthumbnail">
+                        <a href="image/Combining_Recurrent.gif" target="_self">
+                            <img src="image/Combining_Recurrent.gif" alt="Combining_Recurrent" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/document/8826012/">
+                                Combining Recurrent Neural Networks and Adversarial Training for Human Motion Synthesis and Control
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Zhiyong Wang; Jinxiang Chai; Shihong Xia -->
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37088563961" target="_blank">Zhiyong Wang </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37396663100" target="_blank">Jinxiang Chai </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
+                                IEEE Transactions on Visualization and Computer Graphics</a> ( Volume: 27, Issue: 1, 01 January 2021)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Combining_Recurrent_Neural_Networks_and_Adversarial_Training_for_Human_Motion_Synthesis_and_Control.pdf">Paper</a>]
+                            [<a href="video/Combining_Recurrent.mp4">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!--Realtime and Accurate 3D Eye Gaze Capture with DCNN-Based Iris and Pupil Segmentation. -->
+                <div id="Realtime_and_Accurate_3D_Eye" class="projitem">                   
+                    <div id="Realtime_and_Accurate_3D_Eye" class="projthumbnail">
+                        <a href="image/Realtime_and_Accurate_3D_Eye.gif" target="_self">
+                            <img src="image/Realtime_and_Accurate_3D_Eye.gif" alt="Realtime_and_Accurate_3D_Eye" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/document/8818661">
+                                Realtime and Accurate 3D Eye Gaze Capture with DCNN-Based Iris and Pupil Segmentation
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Zhiyong Wang; Jinxiang Chai; Shihong Xia-->
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37088563961" target="_blank">Zhiyong Wang </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37396663100" target="_blank">Jinxiang Chai </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
+                                IEEE Transactions on Visualization and Computer Graphics</a> (Volume: 27, Issue: 1, 01 January 2021)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Realtime_and_Accurate_3D_Eye_Neural_Networks_and_Adversarial_Training_for_Human_Motion_Synthesis_and_Control.pdf">Paper</a>]
+                            [<a>Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!--Sparse Data Driven Mesh Deformation -->
+                <div id="Sparse_Data" class="projitem">                   
+                    <div id="Sparse_Data" class="projthumbnail">
+                        <a href="image/Sparse_Data.gif" target="_self">
+                            <img src="image/Sparse_Data.gif" alt="Sparse_Data" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://ieeexplore.ieee.org/document/8839414">
+                                Sparse Data Driven Mesh Deformation
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- Lin Gao; Yu-Kun Lai; Jie Yang; Ling-Xiao Zhang; Shihong Xia; Leif Kobbelt -->
+                            <a class="name" href="http://geometrylearning.com/" target="_blank">Lin Gao </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37088563961" target="_blank">Yu-Kun Lai </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37088450605" target="_blank">Jie Yang </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37088655587" target="_blank">Ling-Xiao Zhang </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            <a class="name" href="https://ieeexplore.ieee.org/author/37266790600" target="_blank">Leif Kobbelt </a>,
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945" target="_blank">
+                                IEEE Transactions on Visualization and Computer Graphics</a> (Volume: 27, Issue: 3, 01 March 2021)
+                        <p class="projlinks">
+                            [<a>Project Page</a>]
+                            [<a href="papers/Sparse_Data_Neural_Networks_and_Adversarial_Training_for_Human_Motion_Synthesis_and_Control.pdf">Paper</a>]
+                            [<a href="video/Sparse_Data.mp4">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!--Sequential 3D Human Pose Estimation Using Adaptive Point Cloud Sampling Strategy. -->
+                <div id="Sequential_3D_Human_Pose" class="projitem">                   
+                    <div id="Sequential_3D_Human_Pose" class="projthumbnail">
+                        <a href="image/Sequential_3D_Human_Pose.png" target="_self">
+                            <img src="image/Sequential_3D_Human_Pose.png" alt="Sequential_3D_Human_Pose" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://www.ijcai.org/proceedings/2021/184">
+                                Sequential 3D Human Pose Estimation Using Adaptive Point Cloud Sampling Strategy
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!-- 	Zihao Zhang, Lei Hu, Xiaoming Deng, Shihong Xia: -->
+                            <a class="name" href="http://zihaozhang.tech/" target="_blank">Zihao Zhang </a>,                            
+                            <a class="name" href="https://hlcdyy.github.io/" target="_blank">lei hu </a>,
+                            <a class="name" href="https://teacher.ucas.ac.cn/~dengxm" target="_blank">Xiaoming Deng</a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a class="name" href="https://ijcai-21.org/" target="_blank">
+                                IJCAI,</a> (pp. 1330-1337. 2021)
+                        <p class="projlinks">
+                            [<a href="https://github.com/Hmslab/Adapose">Project Page</a>]
+                            [<a href="papers/Sequential_3D_Human_Pose_Estimation_Using_Adaptive_Point_Cloud_Sampling.pdf">Paper</a>]
+                            [<a href="https://ijcai-21.org/videos-slides/?video=6405">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                <!--3D-TalkEmo: Learning to Synthesize 3D Emotional Talking Head. -->
+                <div id="3D-TalkEmo" class="projitem">                   
+                    <div id="3D-TalkEmo" class="projthumbnail">
+                        <a href="image/3D-TalkEmo.png" target="_self">
+                            <img src="image/3D-TalkEmo.png" alt="3D-TalkEmo" />
+                        </a>
+                    </div>
+                    <div class="projintro">
+                        <p class="projtitle">
+                            <!-- 项目网址,目前为论文网址 -->
+                            <a class="papertitle" href="https://arxiv.org/abs/2104.12051">
+                                3D-TalkEmo: Learning to Synthesize 3D Emotional Talking Head
+                            </a>
+                        </p>
+                        <!-- 作者 -->
+                        <p class="projauthor">
+                            <!--Qianyun Wang, Zhenfeng Fan, Shihong Xia -->
+                            <a >Qianyun Wang </a>,                            
+                            <a >Zhenfeng Fan </a>,
+                            <a class="name" href="https://people.ucas.ac.cn/~0004712" target="_blank">Shihong Xia </a>,
+                            
+                            
+                        </p>
+                        <p class="projconference">
+                            <a >
+                                Computer Vision and Pattern Recognition</a> 
+                        <p class="projlinks">
+                            [<a href="https://github.com/Hmslab/Adapose">Project Page</a>]
+                            [<a href="papers/3D-TalkEmo_Estimation_Using_Adaptive_Point_Cloud_Sampling.pdf">Paper</a>]
+                            [<a href="https://ijcai-21.org/videos-slides/?video=6405">Video</a>]
+                            <!-- [<a href="https://pku-mocca.github.io/GestureDiffuCLIP-Page">Code</a>] (Coming soon...) -->
+                        </p>
+                    </div>
+                </div>
+
+                
+            </div>            
         </div>
 
         <!-- <div id="activity" class="section">
