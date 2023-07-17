@@ -8,7 +8,7 @@ div#myinfo
     padding-left: 40px;
     width: 68%;
     height: 240px;
-   
+    line-height:20px;
 }
 
 .ict {
@@ -17,7 +17,7 @@ div#myinfo
 }
 div#mypic
 {
-     width: 180px;
+    width: 180px;
     height: 240px;
 }
 
@@ -63,11 +63,14 @@ div#myintro
 
 .section
 {
+    line-height:auto;
     width: 100%;
+    line-height:30px;
 }
 
 .sectitle
 {
+    line-height:auto;
     float: none;
     width: 100%;
     margin: 30px 0px 10px 0px;
@@ -86,24 +89,28 @@ div#myintro
     float: none;
     margin: 10px 2% 0 2%;
     width: 96%;
+    
 }
 
 .projitem
 {
     width: 100%;
     margin: 15px 0px;
+    line-height:30px;
 }
 
 .projthumbnail
 {
     width: 160px;
     height: 100px;
+    
 }
     .projthumbnail img
     {
         width: 160px;
         height: 160px;
-        object-fit: contain;
+        object-fit: scale-down;
+        
     }
 .projintro
 {
