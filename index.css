@@ -1,7 +1,7 @@
 
 
 
-/* div#myinfo
+div#myinfo
 {
     float: left;
     margin: 30px, auto;
@@ -10,11 +10,14 @@
     height: 240px;
    
 }
-*/
+
+.ict {
+    display: block;
+    margin:0 auto;
+}
 div#mypic
 {
- 
-    width: 180px;
+     width: 180px;
     height: 240px;
 }
 
@@ -166,7 +169,7 @@ div#myintro
     .expitemimg img
     {
         width: 150px;
-        vertical-align: middle;
+        /* vertical-align: middle; */
         clear: both;
         display: block;
         margin: auto;
