@@ -59,13 +59,14 @@ div#myintro
     width: 100%;
     font-size: 0.95em;
     text-align: justify;
+    line-height:25px;
 }
 
 .section
 {
     line-height:auto;
     width: 100%;
-    line-height:25px;
+    /* line-height:25px; */
 }
 
 .sectitle
@@ -87,7 +88,7 @@ div#myintro
 .seccontent
 {
     float: none;
-    margin: 10px 2% 0 2%;
+    margin: 20px 2% 10px 2%;
     width: 96%;
     
 }
@@ -96,7 +97,7 @@ div#myintro
 {
     width: 100%;
     margin: 15px 0px;
-    line-height:30px;
+    line-height:20px;
 }
 
 .projthumbnail
@@ -108,8 +109,8 @@ div#myintro
     .projthumbnail img
     {
         width: 160px;
-        height: 160px;
-        object-fit: scale-down;
+        height: 100px;
+        object-fit: contain;
         
     }
 .projintro
