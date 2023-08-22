@@ -78,11 +78,12 @@ div
         /*max-width: 800px;*/
     }
 
-    div#heading
+    div#ict
     {
         height: 30px;
         width: 100%;
         clear: both;
+        height: auto;
     }
 
     div#footing
