@@ -13,7 +13,8 @@ div#myinfo
 
 .ict {
     display: block;
-    margin:0 auto;
+    margin: 0 -50px; 
+    /* auto; */
 }
 div#mypic
 {
